@@ -59,6 +59,10 @@
   line-height: 1.5;
   font-size: 1.5rem;
 }
+ 
+.name {
+  color: #2265fd 
+}
 
 .code {
   background: #fafafa;
