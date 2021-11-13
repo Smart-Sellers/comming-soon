@@ -12,6 +12,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+         <span className={styles.logo}>
+            <Image src="/logo.svg" alt="Smart Sellers Logo" width={124} height={124} />
+          </span>
+
         <h1 className={styles.title}>
           Добро пожаловать в <span className={styles.name}>Smart Sellers!</span>
         </h1>
@@ -58,10 +62,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+           SmartSellers.net © 2021. Все права защищены
         </a>
       </footer>
     </div>
