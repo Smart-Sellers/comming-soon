@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Timer from "./components/Countdown/Timer";
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
         <p className={styles.description}>
           Начни увеличивать свои продажи вместе с нами
         </p>
-
+         <Timer />
         <div className={styles.grid}>
           <div className={styles.card}>
             <h2>Documentation</h2>
