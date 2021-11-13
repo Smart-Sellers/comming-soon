@@ -53,25 +53,25 @@ class CountDown extends Component {
         <div className="col-4">
           <div className="box">
             <p id="day">{days}</p>
-            <span className="text">Days</span>
+            <span className="text">Дней</span>
           </div>
         </div>
         <div className="col-4">
           <div className="box">
             <p id="hour">{hours}</p>
-            <span className="text">Hours</span>
+            <span className="text">Часов</span>
           </div>
         </div>
         <div className="col-4">
           <div className="box">
             <p id="minute">{minutes}</p>
-            <span className="text">Minutes</span>
+            <span className="text">Минут</span>
           </div>
         </div>
         <div className="col-4">
           <div className="box">
             <p id="second">{seconds}</p>
-            <span className="text">Seconds</span>
+            <span className="text">Секунд</span>
           </div>
         </div>
       </div>
