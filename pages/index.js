@@ -40,7 +40,7 @@ export default function Home() {
           >
             <h2>Examples</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+          </div>
 
           <div
             className={styles.card}
@@ -49,7 +49,7 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
+          </div>
         </div>
       </main>
 
