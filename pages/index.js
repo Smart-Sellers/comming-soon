@@ -24,7 +24,7 @@ export default function Home() {
         <p className={styles.description}>
           Начни увеличивать свои продажи вместе с нами
         </p>
-         <Timer deadline={30} />
+         <Timer deadline={new Date("2021-12-1").getTime()} />
         <div className={styles.grid}>
           <div className={styles.card}>
             <h2>Documentation</h2>
