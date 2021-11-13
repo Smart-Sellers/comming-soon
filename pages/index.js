@@ -24,34 +24,8 @@ export default function Home() {
         <p className={styles.description}>
           Начни увеличивать свои продажи вместе с нами
         </p>
-         <Timer deadline={new Date("2021-12-1").getTime()} />
-        <div className={styles.grid}>
-          <div className={styles.card}>
-            <h2>Documentation</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </div>
-
-          <div className={styles.card}>
-            <h2>Learn</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </div>
-
-          <div
-            className={styles.card}
-          >
-            <h2>Examples</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </div>
-
-          <div
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </div>
-        </div>
+         <Timer />
+      
       </main>
 
       <footer className={styles.footer}>
